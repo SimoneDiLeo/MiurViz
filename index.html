@@ -105,25 +105,17 @@
   <style>
     h1 {text-align: center;}
     </style>
-<h1>MIURVIZ, A dashboard to visualize the gender Gap in the Italian universities</h1>  
+<h1>MIURVIZ, A static dashboard to visualize the gender Gap in the Italian universities</h1>  
 This project allows to analyze and visualize data related to Italian universities (Open Data MIUR).
 <br>
-The project uses R and is easily reproducible, being the data and all the resources available online.
+
+Initial data available on the MIUR website concern the number of academic staff divided by gender, year, and role in the public Italian university for the period 2010-2021.
 <br>
-<h2>Packages Required</h2> <br>
-The following R packages are required for execution:
-<ul>
-  <li>tidyverse</li>
-<li>factoextra</li>
-<li>NbClust</li>
-<li>RColorBrewer</li>
-<li>ggplot2</li>
-<li>plotly</li>
-<li>fpc</li>
-<li>dbscan</li>
-<li>caret</li>
-</ul>
-Initial data available on the MIUR website concern the number of academic staff divided by gender, year, and role in the public Italian university for the period 2010-2019.
+<FONT COLOR="#ff0000"> Red</FONT> dots represent female staff while <FONT COLOR="#0303fc"> Blue</FONT> dots represent male staff. The line between the two dots represents the difference between the values (shown numerically to the right of each mini graph).
+<br>
+The line is <FONT COLOR="#f781e0"> Pink </FONT>  if the number of male staff is higher than female, <FONT COLOR="#04a5c2"> light Blue  </FONT> in the opposite case. It is interesting to note that in all positions the number of male staff is higher than the number of female staff, except in research fellows. It should be noted that assignees, among the represented staff, are also the most precarious and consequently exposed to job insecurities.
+<br>
+This graph represents only the difference in the Italian university system as a whole, and it is necessary to broaden the analysis by also considering different universities and research fields to assess whether, and in which, research field or university a high gender gap is present.
 
 </div>
             <div class="border-head">
